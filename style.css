@@ -1,0 +1,60 @@
+h1 {
+    font-family: 'Kalam', cursive;
+}
+
+p {
+    font-family: 'Kalam', cursive;
+    line-height: 0.8;
+}
+
+input[type=text], textarea {
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+#postcard {
+    align-items:center;
+}
+
+.container {
+  width: 500px; 
+  border: 1px solid blue;
+  display: flex;
+  padding: 10px;
+  display: inline-block;
+  margin: auto;
+}
+
+.header {
+  width: 500px; 
+  border: 1px solid red;
+  display: flex;
+  margin: 10px;
+}
+
+.left {
+  width: 50%;
+  float: left;
+  border: 1px solid green;
+  margin: 10px;
+}
+
+.right {
+  width: auto;
+  border: 1px solid green;
+  margin: 10px;
+}
+
+.middle {
+  width: 500px; 
+  border: 1px solid red;
+  display: flex;
+  margin: 10px;
+}
+
+.footer {
+  width: 500px; 
+  border: 1px solid red;
+  text-align: center;
+  margin: 10px;
+}
