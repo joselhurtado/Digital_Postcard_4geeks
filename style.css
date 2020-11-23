@@ -18,7 +18,6 @@ input[type=text], textarea {
 
 .container {
   width: 500px; 
-  border: 1px solid blue;
   display: flex;
   padding: 10px;
   display: inline-block;
@@ -27,7 +26,6 @@ input[type=text], textarea {
 
 .header {
   width: 500px; 
-  border: 1px solid red;
   display: flex;
   margin: 10px;
 }
@@ -35,26 +33,22 @@ input[type=text], textarea {
 .left {
   width: 50%;
   float: left;
-  border: 1px solid green;
   margin: 10px;
 }
 
 .right {
   width: auto;
-  border: 1px solid green;
   margin: 10px;
 }
 
 .middle {
-  width: 500px; 
-  border: 1px solid red;
+  width: 500px;
   display: flex;
   margin: 10px;
 }
 
 .footer {
-  width: 500px; 
-  border: 1px solid red;
+  width: 500px;
   text-align: center;
   margin: 10px;
 }
