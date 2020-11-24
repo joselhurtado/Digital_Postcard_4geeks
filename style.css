@@ -1,54 +1,83 @@
+body {
+    background-color: #000;
+}
+    
 h1 {
     font-family: 'Kalam', cursive;
+    line-height: 0.8;
+    font-size:2em;
 }
 
 p {
     font-family: 'Kalam', cursive;
+    line-height: 1;
+    font-size; 1em;
+}
+
+input, textarea {
+    font-family: 'Kalam', cursive;
     line-height: 0.8;
-}
-
-input[type=text], textarea {
-  border: none;
-  border-bottom: 2px solid grey;
-}
-
-#postcard {
-    align-items:center;
+    color: #404040;
 }
 
 .container {
-  width: 500px; 
-  display: flex;
-  padding: 10px;
-  display: inline-block;
-  margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: #fff;
 }
 
 .header {
-  width: 500px; 
-  display: flex;
-  margin: 10px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+
 }
 
-.left {
-  width: 50%;
-  float: left;
-  margin: 10px;
+.tagline {
+    float: left;
+    padding: 10px;
 }
 
-.right {
-  width: auto;
-  margin: 10px;
+.logo {
+    margin: auto 10px;
+    padding: 10px;
+]}
+
+.section {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
-.middle {
-  width: 500px;
-  display: flex;
-  margin: 10px;
+.content, .form {
+    padding: 10px;
+}
+
+input[type=text], [type=email], [type=textarea] {
+    border: none;
+    border-bottom: 2px solid #eee;
+    width: 100%;
 }
 
 .footer {
-  width: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+  background-color: #ccc;
+  border: none;
+  color: #000;
+  padding: 20px 10px 20px 10px;
+  margin: 5px 10px 25px 10px;
   text-align: center;
-  margin: 10px;
+  font-size: 8x;
+  font-family: 'Kalam', cursive;
+  line-height: 0.8;
 }
