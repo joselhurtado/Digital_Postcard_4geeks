@@ -3,19 +3,19 @@ body {
 }
     
 h1 {
-    font-family: 'Kalam', cursive;
+    font-family: 'Kalam';
     line-height: 0.8;
     font-size:2em;
 }
 
 p {
-    font-family: 'Kalam', cursive;
+    font-family: 'Kalam';
     line-height: 1;
-    font-size; 1em;
+    font-size: 1em;
 }
 
 input, textarea {
-    font-family: 'Kalam', cursive;
+    font-family: 'Kalam';
     line-height: 0.8;
     color: #404040;
 }
@@ -44,9 +44,7 @@ input, textarea {
 .logo {
     margin: auto 10px;
     padding: 10px;
-    float:right; 
-    width: 50px;
-]}
+}
 
 .section {
     width: 500px;
