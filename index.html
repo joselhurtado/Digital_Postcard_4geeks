@@ -7,10 +7,10 @@
         <meta name="description" content="First Postcard Using HTML & CSS">
         <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
-         <style>
-             @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-         </style>
+            <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+    </style>
             <link rel = "stylesheet" type = "text/css" href = "/style.css" />
     </head>
     <body>
@@ -18,28 +18,32 @@
         <div class="header">
             <div class="tagline">
                 <h1>
-                    My First Postcard
+                    My Postcard
                 </h1>
             </div>
             <div class="logo"> 
-            <img style="float:right; width: 140px;" src="https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/14d92/4geeks-logo.webp">
+            <img style="float:right; width: 60px;" src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/.learn/assets/4geeks.png" alt="4Geeks Logo">
             </div>
         <div class="section">
             <div class="content">
-                <p>Look how awesome! This is a postcard that I created using HTML5 and CSS during my 4Geeks Academy Bootcamp!</p>
+                <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
                 <p>This is so cool, can't wait to start doing more stuff!</p>
             </div>
             <div class="form"> 
+                <form>
                 <form action="/action_page.php">
-                <input type="text" id="name" name="name" value="Some Name"><br><br>
-                <input type="email" id="email" size="30" name="lname" value="Some Email"><br><br>
-                <textarea type="textarea" id="Comment" name="Comment" rows="5" cols="33">Some Comment</textarea><br><br>
+                <label for="Somename"></label>
+                <input type="text" id="name" name="name" value="Some Name" aria-required="true"/><br><br>
+                <label for="email"></label>
+                <input type="email" id="email" size="30" name="email" value="Some Email" aria-required="true"/><br><br>
+                <label for="textarea"></label>
+                <textarea type="textarea" id="Comment" name="Comment" minlength="10" rows="7" cols="33" aria-required="true">Some Comment</textarea><br><br>
                 </form> 
             </div>
         </div>
     </div>
-     <div class="footer">
-                <button type="button">Send My Postcard</button>
-            </div>
+    <div class="footer">
+                <button type="button">Send My Postcard</button> 
+            </div> 
     </body>
 </html>
