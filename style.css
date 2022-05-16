@@ -44,6 +44,8 @@ input, textarea {
 .logo {
     margin: auto 10px;
     padding: 10px;
+    float:right; 
+    width: 50px;
 ]}
 
 .section {
